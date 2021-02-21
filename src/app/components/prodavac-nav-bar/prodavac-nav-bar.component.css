@@ -1,0 +1,39 @@
+.navbar
+{
+    width: 100%;
+    height: 60px;
+    background-color: #342809;
+    display: block;
+    padding-left: 80px;
+}
+
+.tab
+{
+    color: #fcba12;
+    font-size: 30px;
+    align-items: center;
+    height: 60px;
+    float: left;
+    padding: 10px 20px 0 20px;
+}
+
+.tab:hover
+{
+    border: 2px #fcba12 solid;
+}
+
+.logout
+{
+    color: #fcba12;
+    width: 60px;
+    height: 60px;
+    float: right;
+    margin-right: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.logout:hover
+{
+    border: 2px #fcba12 solid;
+}

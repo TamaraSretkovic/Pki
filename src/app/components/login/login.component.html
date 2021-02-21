@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="left">
+        <img src="../../../assets/images/logo123.jpg" class="logo">
+        <h2 class="logoName">
+            Medenjaci
+        </h2>
+    </div>
+    <div class="right">
+        <div class="row">
+            <form class="clr-form" [formGroup]="loginForm">
+                <div class="userInfo">
+                    <span class="userLabel">Korisnicko ime:</span>
+                    <input type="text" class="userInput" name="username"
+                        formControlName="username" autofocus="autofocus" required />
+                </div>
+                <div class="userInfo">
+                    <span class="userLabel">Lozinka:</span>
+                    <input type="password" class="userInput" name="loginForm.password"
+                        formControlName="password" required />
+                </div>
+                <div *ngIf="showErrorMessage" class="error">
+                    Pogresno korisnicko ime ili lozinka!
+                </div>
+                <div class="userInfo">
+                    <button type="submit" class="btn btn-block btn-md button" (click)="login()">
+                        Login
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

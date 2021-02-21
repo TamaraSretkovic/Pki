@@ -1,0 +1,85 @@
+.container
+{
+    display: block;
+}
+
+.left
+{
+    background-color: white;
+    height: 1024px;
+    width: 30%;
+    float: left;
+}
+
+.right
+{
+    height: 1024px;
+    width: 70%;
+    float: right;
+}
+
+.logo
+{
+    margin-top: 55%;
+    margin-left: 31%;
+}
+
+.logoName
+{
+    font-size: 45px;
+    color: #fed777;
+    margin-left: 30%;
+    font-weight: bold;
+}
+
+.row
+{
+    width: 40%;
+    margin: auto;
+    margin-top: 30%;
+    align-content: center;
+}
+
+.userInfo
+{
+    width: 100%;
+    padding: 20px;
+}
+
+.userLabel
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.userInput
+{
+    width: 50%;
+    height: 40px;
+    float: right;
+
+    border-radius: 5px;
+    border-color: #fcba12;
+}
+
+.error
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+
+.button
+{
+    width: 50%;
+    height: 40px;
+    float: right;
+    margin: 0;
+
+    color: white;
+    background-color: #fcba12;
+    border-radius: 5px;
+    border-color: #fcba12;
+
+}

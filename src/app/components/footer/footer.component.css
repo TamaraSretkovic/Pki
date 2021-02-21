@@ -1,0 +1,23 @@
+.footer
+{
+    height: 50px;
+    width: 2048px;
+    background-color: white;
+    position: absolute;
+    top: 996px;
+    padding-top: 5px;
+}
+
+.logoName
+{
+    color: #fed777;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo
+{
+    margin-left: 50px;
+    width: 40px;
+}
